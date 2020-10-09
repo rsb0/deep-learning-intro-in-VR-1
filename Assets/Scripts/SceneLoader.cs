@@ -9,6 +9,7 @@ public static class SceneLoader
     {
         Tutorial,
         Room1,
+        Room2,
     }
 
     public static void Load(Scene scene)
