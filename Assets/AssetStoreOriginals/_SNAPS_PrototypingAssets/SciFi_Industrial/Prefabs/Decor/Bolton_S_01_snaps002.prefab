@@ -11,13 +11,13 @@ GameObject:
   - component: {fileID: 4829472079115820}
   - component: {fileID: 33307981212198940}
   - component: {fileID: 23292808035021012}
-  - component: {fileID: 64332654383525122}
+  - component: {fileID: 1361596095}
   m_Layer: 0
   m_Name: Bolton_S_01_snaps002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &4829472079115820
 Transform:
@@ -79,8 +79,8 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &64332654383525122
-MeshCollider:
+--- !u!65 &1361596095
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -89,7 +89,6 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300000, guid: 24b3faef682ff5641998f8e7bda74ece, type: 2}
+  serializedVersion: 2
+  m_Size: {x: 0.25, y: 0.25000012, z: 0.06562519}
+  m_Center: {x: 0, y: -0.000000059604645, z: -0.032812595}

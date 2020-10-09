@@ -11,13 +11,13 @@ GameObject:
   - component: {fileID: 4959057358301152}
   - component: {fileID: 33938770557622018}
   - component: {fileID: 23282681918627430}
-  - component: {fileID: 64861996425426804}
+  - component: {fileID: 8983310167865452375}
   m_Layer: 0
   m_Name: Barrel_03_snaps002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &4959057358301152
 Transform:
@@ -80,8 +80,8 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &64861996425426804
-MeshCollider:
+--- !u!65 &8983310167865452375
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -90,7 +90,6 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300000, guid: 552db02216e7d864fb3a19958a79991d, type: 2}
+  serializedVersion: 2
+  m_Size: {x: 0.9207409, y: 1.1875, z: 0.9250002}
+  m_Center: {x: 0, y: 0.59375, z: 0}

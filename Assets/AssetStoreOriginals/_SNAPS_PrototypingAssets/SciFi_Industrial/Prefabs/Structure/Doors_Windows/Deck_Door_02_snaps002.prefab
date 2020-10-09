@@ -11,13 +11,13 @@ GameObject:
   - component: {fileID: 4429141941954370}
   - component: {fileID: 33078885885253160}
   - component: {fileID: 23328578915957394}
-  - component: {fileID: 64457048562423822}
+  - component: {fileID: 7041276187942805871}
   m_Layer: 0
   m_Name: Deck_Door_02_snaps002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &4429141941954370
 Transform:
@@ -79,8 +79,8 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &64457048562423822
-MeshCollider:
+--- !u!65 &7041276187942805871
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -89,7 +89,6 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300000, guid: e73a7744fad9c1446875a9e8b7f6c54b, type: 2}
+  serializedVersion: 2
+  m_Size: {x: 1.9375005, y: 2.499689, z: 0.1875}
+  m_Center: {x: 0.96875024, y: 1.2498429, z: -0.015624762}

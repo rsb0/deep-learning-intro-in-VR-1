@@ -11,13 +11,13 @@ GameObject:
   - component: {fileID: 4131454452211634}
   - component: {fileID: 33189761426631546}
   - component: {fileID: 23237311931627248}
-  - component: {fileID: 64404652946731942}
+  - component: {fileID: 459889301884212550}
   m_Layer: 0
   m_Name: GuardRail_01_End_snaps002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &4131454452211634
 Transform:
@@ -78,8 +78,8 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &64404652946731942
-MeshCollider:
+--- !u!65 &459889301884212550
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -88,7 +88,6 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300000, guid: 54f69df5ac9613647a76ba6c28e76212, type: 2}
+  serializedVersion: 2
+  m_Size: {x: 0.7508, y: 1.0020001, z: 0.16419846}
+  m_Center: {x: 0.2806, y: 0.50100005, z: 0.0000000037252903}

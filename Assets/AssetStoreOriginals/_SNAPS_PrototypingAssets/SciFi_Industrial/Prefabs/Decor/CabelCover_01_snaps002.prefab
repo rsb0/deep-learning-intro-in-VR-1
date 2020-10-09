@@ -11,13 +11,13 @@ GameObject:
   - component: {fileID: 4671384700106216}
   - component: {fileID: 33855052996015620}
   - component: {fileID: 23130262566135038}
-  - component: {fileID: 64257457002058948}
+  - component: {fileID: 208149209}
   m_Layer: 0
   m_Name: CabelCover_01_snaps002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &4671384700106216
 Transform:
@@ -78,8 +78,8 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &64257457002058948
-MeshCollider:
+--- !u!65 &208149209
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -88,7 +88,6 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300000, guid: e7fdbf58a07235d4aaf52469f352ccd3, type: 2}
+  serializedVersion: 2
+  m_Size: {x: 0.5, y: 0.12500107, z: 0.046846867}
+  m_Center: {x: 0.25, y: -0.062499464, z: -0.02342248}

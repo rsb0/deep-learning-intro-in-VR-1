@@ -17,7 +17,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &4951343261086952
 Transform:
@@ -93,4 +93,4 @@ MeshCollider:
   serializedVersion: 3
   m_Convex: 0
   m_CookingOptions: 14
-  m_Mesh: {fileID: 4300000, guid: 4c011908def67324fb4981c19dc60044, type: 2}
+  m_Mesh: {fileID: 4300000, guid: 655c4609913f8994ba8f29e41f3a6268, type: 2}

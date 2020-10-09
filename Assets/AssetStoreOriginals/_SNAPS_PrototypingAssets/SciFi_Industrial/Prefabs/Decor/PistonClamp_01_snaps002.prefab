@@ -11,13 +11,13 @@ GameObject:
   - component: {fileID: 4804398086656274}
   - component: {fileID: 33795108818916934}
   - component: {fileID: 23439700802600548}
-  - component: {fileID: 64313337598797148}
+  - component: {fileID: 108274564}
   m_Layer: 0
   m_Name: PistonClamp_01_snaps002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &4804398086656274
 Transform:
@@ -79,8 +79,8 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &64313337598797148
-MeshCollider:
+--- !u!65 &108274564
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -89,7 +89,6 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 1
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300000, guid: 79e8f4d0756ef574c968a28a322f0c46, type: 2}
+  serializedVersion: 2
+  m_Size: {x: 0.5, y: 1.4960938, z: 0.21875}
+  m_Center: {x: 0.25, y: -0.6347656, z: -0.109375}

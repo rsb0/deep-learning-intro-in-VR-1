@@ -11,13 +11,13 @@ GameObject:
   - component: {fileID: 4933916492307172}
   - component: {fileID: 33459476218592922}
   - component: {fileID: 23936717952515884}
-  - component: {fileID: 64957092954712696}
+  - component: {fileID: 3884708181857826452}
   m_Layer: 0
   m_Name: Gen_Part_01_snaps002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &4933916492307172
 Transform:
@@ -78,8 +78,8 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &64957092954712696
-MeshCollider:
+--- !u!65 &3884708181857826452
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -88,7 +88,6 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300000, guid: 0634c8518cbdc384c8291c2d50872e54, type: 2}
+  serializedVersion: 2
+  m_Size: {x: 0.8749999, y: 0.87501085, z: 1.0000477}
+  m_Center: {x: 0.00000025331974, y: 0.000000059604645, z: -0.50002384}

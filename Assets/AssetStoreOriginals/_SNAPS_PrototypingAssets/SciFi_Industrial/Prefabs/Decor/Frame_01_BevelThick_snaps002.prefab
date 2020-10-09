@@ -11,13 +11,13 @@ GameObject:
   - component: {fileID: 4665916287294304}
   - component: {fileID: 33891956840412612}
   - component: {fileID: 23477093622060724}
-  - component: {fileID: 64691739681064494}
+  - component: {fileID: 2222080643184959919}
   m_Layer: 0
   m_Name: Frame_01_BevelThick_snaps002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &4665916287294304
 Transform:
@@ -78,8 +78,8 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &64691739681064494
-MeshCollider:
+--- !u!65 &2222080643184959919
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -88,7 +88,6 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 1
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300000, guid: c896aed8f0ce6b5458c9e5ace2b9825c, type: 2}
+  serializedVersion: 2
+  m_Size: {x: 2.000001, y: 1.0000005, z: 0.15625}
+  m_Center: {x: 1.0000005, y: 0.49999976, z: -0.078125}

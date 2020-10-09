@@ -11,13 +11,13 @@ GameObject:
   - component: {fileID: 4445029852578898}
   - component: {fileID: 33783363296784498}
   - component: {fileID: 23316680945134572}
-  - component: {fileID: 64308038842544764}
+  - component: {fileID: 551378705649087459}
   m_Layer: 0
   m_Name: Hale_Pillar_01_snaps002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &4445029852578898
 Transform:
@@ -78,8 +78,8 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &64308038842544764
-MeshCollider:
+--- !u!65 &551378705649087459
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -88,7 +88,6 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300000, guid: d84915e38d009204593bb5161167a8b2, type: 2}
+  serializedVersion: 2
+  m_Size: {x: 1.25, y: 6, z: 1.25}
+  m_Center: {x: 0, y: 3, z: 0}

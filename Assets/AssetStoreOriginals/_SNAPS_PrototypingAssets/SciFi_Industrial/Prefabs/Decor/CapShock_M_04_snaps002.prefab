@@ -11,13 +11,13 @@ GameObject:
   - component: {fileID: 4189320427556882}
   - component: {fileID: 33943108611440104}
   - component: {fileID: 23204101022070474}
-  - component: {fileID: 64245630337362538}
+  - component: {fileID: 1157360529}
   m_Layer: 0
   m_Name: CapShock_M_04_snaps002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &4189320427556882
 Transform:
@@ -79,8 +79,8 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &64245630337362538
-MeshCollider:
+--- !u!65 &1157360529
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -89,7 +89,6 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300000, guid: 3050df09313a4a54db31a1fd197207a0, type: 2}
+  serializedVersion: 2
+  m_Size: {x: 0.125, y: 1, z: 0.125}
+  m_Center: {x: 0, y: -0.5, z: 0}
